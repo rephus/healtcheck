@@ -1,0 +1,10 @@
+[config]
+# Set debug to true if you want to get the content of the webpage when it fails
+debug = false
+timeout = 30
+retry = 2
+
+[servers]
+google-works = https://google.co.uk,Google Search
+#google-fails = https://google.co.uk,Missing content
+unexisting-retry = http://unexisting.domain.com/,Missing content
